@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-chipbridge\src\aumai_chipbridge\models.py
+# hypothesis_version: 6.151.9
+
+[0.0, 1.0, 'GraphOperator', 'HardwareProfile', 'HardwareTarget', 'InferencePrediction', 'ModelGraph', 'ModelProfile', 'OperatorPrediction', 'OperatorType', 'OptimizationPass', 'OptimizationPlan', 'a100', 'arm', 'attention', 'compute', 'conv2d', 'cpu_arm', 'cpu_x86', 'embedding', 'fp32', 'gelu', 'gpu_cuda', 'gpu_rocm', 'layernorm', 'm2', 'matmul', 'npu', 'op_id', 'softmax', 't4', 'tpu', 'unknown', 'xeon']

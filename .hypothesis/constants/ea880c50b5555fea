@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-chipbridge\src\aumai_chipbridge\cli.py
+# hypothesis_version: 6.151.9
+
+[1.0, 128, 768, 3072, 32000, ' (*)', ' <-- BOTTLENECK', ',', '-', '--baseline', '--graph', '--output', '--passes', '--target', '__main__', 'analyze', 'attn_0', 'compare', 'cpu_x86', 'demo_transformer', 'embed', 'embed_dim', 'ff_0', 'ff_1', 'gelu_0', 'gpu_cuda', 'graph_path', 'norm_0', 'norm_1', 'num_heads', 'optimize', 'output_path', 'predict', 'softmax_out', 'utf-8', 'vocab_size']

@@ -119,6 +119,7 @@ class HardwareProfile(BaseModel):
     supports_fp16: bool = Field(default=True)
     supports_int8: bool = Field(default=True)
     architecture: str = Field(default="unknown")
+    notes: str = Field(default="")
 
 
 class ModelProfile(BaseModel):

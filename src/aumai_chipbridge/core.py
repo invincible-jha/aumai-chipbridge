@@ -759,10 +759,10 @@ class InferenceOptimizer:
             precision_rec = "fp32"
             precision_speedup = 1.0
 
-        # Flash Attention for models with attention
-        if model.has_attention and hw.hardware_class in (
+        # Flash Attention for models with attention on supported GPU targets only
+        if model.has_attention and hw.target in (
             HardwareTarget.GPU_CUDA, HardwareTarget.A100, HardwareTarget.T4, HardwareTarget.GPU_ROCM
-        ) if hasattr(hw, 'hardware_class') else True:
+        ):
             if hw.supports_fp16:
                 techniques.append("flash_attention")
 
